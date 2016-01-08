@@ -7,21 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		012202FB16BD7E1700A8E3CE /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 012202FA16BD7E1700A8E3CE /* XMLDictionary.m */; };
 		012202FF16BD7E3F00A8E3CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012202FE16BD7E3F00A8E3CE /* Default-568h@2x.png */; };
 		013F12F5154BB2EB00F50A5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013F12F4154BB2EB00F50A5E /* UIKit.framework */; };
 		013F12F7154BB2EB00F50A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013F12F6154BB2EB00F50A5E /* Foundation.framework */; };
 		013F12F9154BB2EB00F50A5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013F12F8154BB2EB00F50A5E /* CoreGraphics.framework */; };
 		013F12FF154BB2EC00F50A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013F12FD154BB2EC00F50A5E /* InfoPlist.strings */; };
-		013F1301154BB2EC00F50A5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013F1300154BB2EC00F50A5E /* main.m */; };
-		013F1305154BB2EC00F50A5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013F1304154BB2EC00F50A5E /* AppDelegate.m */; };
-		013F1308154BB2EC00F50A5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013F1307154BB2EC00F50A5E /* ViewController.m */; };
 		013F130B154BB2EC00F50A5E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013F1309154BB2EC00F50A5E /* ViewController.xib */; };
+		3445242B1C3E8B6E007E7DE0 /* XMLDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3445242A1C3E8B6E007E7DE0 /* XMLDictionary.swift */; };
+		3445242D1C3FE96B007E7DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3445242C1C3FE96B007E7DE0 /* AppDelegate.swift */; };
+		3445244E1C3FFB1E007E7DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3445244D1C3FFB1E007E7DE0 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		012202F916BD7E1700A8E3CE /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
-		012202FA16BD7E1700A8E3CE /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		012202FE16BD7E3F00A8E3CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		013F12F0154BB2EB00F50A5E /* XMLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		013F12F4154BB2EB00F50A5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -31,11 +28,11 @@
 		013F12FE154BB2EC00F50A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		013F1300154BB2EC00F50A5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		013F1302154BB2EC00F50A5E /* XMLTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLTest-Prefix.pch"; sourceTree = "<group>"; };
-		013F1303154BB2EC00F50A5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		013F1304154BB2EC00F50A5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		013F1306154BB2EC00F50A5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		013F1307154BB2EC00F50A5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		013F130A154BB2EC00F50A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		344524291C3E8B6D007E7DE0 /* XMLTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		3445242A1C3E8B6E007E7DE0 /* XMLDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLDictionary.swift; sourceTree = "<group>"; };
+		3445242C1C3FE96B007E7DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3445244D1C3FFB1E007E7DE0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +52,8 @@
 		012202F816BD7E1700A8E3CE /* XMLDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				012202F916BD7E1700A8E3CE /* XMLDictionary.h */,
-				012202FA16BD7E1700A8E3CE /* XMLDictionary.m */,
+				3445242A1C3E8B6E007E7DE0 /* XMLDictionary.swift */,
+				344524291C3E8B6D007E7DE0 /* XMLTest-Bridging-Header.h */,
 			);
 			name = XMLDictionary;
 			path = ../XMLDictionary;
@@ -93,10 +90,8 @@
 		013F12FA154BB2EB00F50A5E /* XMLTest */ = {
 			isa = PBXGroup;
 			children = (
-				013F1303154BB2EC00F50A5E /* AppDelegate.h */,
-				013F1304154BB2EC00F50A5E /* AppDelegate.m */,
-				013F1306154BB2EC00F50A5E /* ViewController.h */,
-				013F1307154BB2EC00F50A5E /* ViewController.m */,
+				3445242C1C3FE96B007E7DE0 /* AppDelegate.swift */,
+				3445244D1C3FFB1E007E7DE0 /* ViewController.swift */,
 				013F1309154BB2EC00F50A5E /* ViewController.xib */,
 				013F12FB154BB2EC00F50A5E /* Supporting Files */,
 			);
@@ -141,7 +136,8 @@
 		013F12E7154BB2EA00F50A5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 013F12EA154BB2EA00F50A5E /* Build configuration list for PBXProject "XMLTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -178,10 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013F1301154BB2EC00F50A5E /* main.m in Sources */,
-				013F1305154BB2EC00F50A5E /* AppDelegate.m in Sources */,
-				013F1308154BB2EC00F50A5E /* ViewController.m in Sources */,
-				012202FB16BD7E1700A8E3CE /* XMLDictionary.m in Sources */,
+				3445242B1C3E8B6E007E7DE0 /* XMLDictionary.swift in Sources */,
+				3445242D1C3FE96B007E7DE0 /* AppDelegate.swift in Sources */,
+				3445244E1C3FFB1E007E7DE0 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,12 +223,16 @@
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -264,7 +263,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -296,11 +295,14 @@
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -325,7 +327,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -340,11 +342,16 @@
 		013F130F154BB2EC00F50A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLTest/XMLTest-Prefix.pch";
 				INFOPLIST_FILE = "XMLTest/XMLTest-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charcoaldesign.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../XMLDictionary/XMLTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -353,11 +360,15 @@
 		013F1310154BB2EC00F50A5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLTest/XMLTest-Prefix.pch";
 				INFOPLIST_FILE = "XMLTest/XMLTest-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charcoaldesign.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../XMLDictionary/XMLTest-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
