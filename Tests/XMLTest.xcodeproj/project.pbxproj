@@ -29,7 +29,6 @@
 		013F1300154BB2EC00F50A5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		013F1302154BB2EC00F50A5E /* XMLTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLTest-Prefix.pch"; sourceTree = "<group>"; };
 		013F130A154BB2EC00F50A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		344524291C3E8B6D007E7DE0 /* XMLTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		3445242A1C3E8B6E007E7DE0 /* XMLDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLDictionary.swift; sourceTree = "<group>"; };
 		3445242C1C3FE96B007E7DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3445244D1C3FFB1E007E7DE0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				3445242A1C3E8B6E007E7DE0 /* XMLDictionary.swift */,
-				344524291C3E8B6D007E7DE0 /* XMLTest-Bridging-Header.h */,
 			);
 			name = XMLDictionary;
 			path = ../XMLDictionary;
@@ -350,7 +348,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.charcoaldesign.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "../XMLDictionary/XMLTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -368,7 +365,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.charcoaldesign.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "../XMLDictionary/XMLTest-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
